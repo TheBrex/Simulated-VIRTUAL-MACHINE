@@ -1,0 +1,47 @@
+
+;
+;DASSFSFSFS
+35 ; length
+
+12 ; [0] MOV
+0
+5
+20 ; [3] CALL
+8
+1 ; [5] DISPLAY
+30
+0 ; [7] HALT
+; fattoriale:
+12 ; [8] MOV
+1
+; dsiuf54
+2
+12 ; [11] MOV
+20
+1
+
+
+
+12 ; [14] MOV
+30
+1
+; inizio:
+31 ; [17] SUB
+0
+1
+25 ; [20] JNEG
+34
+32 ; [22] MUL
+30
+1
+11 ; [25] POP
+30
+30 ; [27] ADD
+1
+20
+11 ; [30] POP
+1
+22 ; [32] JMP
+17
+; fine:
+21
